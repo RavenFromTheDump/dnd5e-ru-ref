@@ -7,3 +7,10 @@ node_modules
 .env.*
 !.env.example
 .vercel
+# Cloudflare Types
+/worker-configuration.d.ts
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
